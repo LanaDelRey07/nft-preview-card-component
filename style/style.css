@@ -1,0 +1,21 @@
+html {
+    --color-white: hsl(0, 0%, 100%);
+    --color-cyan: hsl(178, 100%, 50%);
+  
+    --color-blue-100: hsl(215, 51%, 70%);
+    --color-blue-400: hsl(215, 32%, 27%);
+    --color-blue-600: hsl(216, 50%, 16%);
+    --color-blue-800: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    background-color: var(--color-blue-800);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
