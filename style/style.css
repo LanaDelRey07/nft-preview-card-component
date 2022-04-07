@@ -88,6 +88,10 @@ body {
   #description h1 a {
     color: var(--color-white);
   }
+
+  #description a:hover{
+    color: hsl(178, 100%, 50%);
+  }
   
   #detail-item {
     display: flex;
@@ -118,6 +122,10 @@ body {
   
   #creator a {
     color: var(--color-white);
+  }
+
+  #creator a:hover{
+    color: hsl(178, 100%, 50%);
   }
   
   .items {
