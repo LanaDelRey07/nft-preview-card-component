@@ -19,6 +19,28 @@ body {
     align-items: center;
     flex-direction: column;
   }
+.button-container{
+    margin-top: 20px;
+    height: 36px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.button{
+    width: 100px;
+    border-radius: 5px;
+    border:1px solid black;
+    color: var(--White);
+    background-color:var(--Very-dark-blackish-blue);
+    cursor: pointer;
+}
+.button:hover{
+    color:var(--Very-dark-blackish-blue);
+    background-color: var(--White);
+}
+.button:disabled{
+    opacity: 0.5;
+}
 
   p {
     color: var(--color-blue-100);
