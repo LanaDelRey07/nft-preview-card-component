@@ -22,8 +22,6 @@ body{
   
 }
 
-
-
 .button-container{
   margin: 30px;
   height: 50px;
@@ -31,9 +29,6 @@ body{
   align-content: center;
   justify-content: space-around;
 }
-
-
-
 
 .button{
   width: 300px;
