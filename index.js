@@ -10,8 +10,8 @@ const state={
 }
 
 //Crear botones
-createButton("Add NFT Card", "addNFTCard")
-createButton("Remove NFT Card", "removeNFTCard")
+createButton("Agregar", "addNFTCard")
+createButton("Quitar", "removeNFTCard")
 
 //Petición del contenido de las tarjetas
 const contentCard = getContentCards()
