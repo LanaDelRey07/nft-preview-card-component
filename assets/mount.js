@@ -1,4 +1,4 @@
-export function mount(card){
-    const mountNode = document.querySelector("#app")
-    mountNode.appendChild(card)    
+export function mount(NFTcard){
+    const modeNode=document.querySelector('#app')
+    modeNode.appendChild(NFTcard)
 }
